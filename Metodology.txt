@@ -1,0 +1,13 @@
+📊 Methodology
+The system applies a 2-sigma (2σ) tolerance threshold. Any bottle exceeding the target_volume + (2 * std_deviation) is flagged as a critical overfill. This data is then exported to sensor_adjustment_log.csv for technical intervention.
+
+Developed for industrial process optimization and quality control automation.
+
+
+---
+
+### Pro-Tip for your GitHub:
+Since you are using `numpy`, make sure that when you upload these files, you include the `.gitignore` file I mentioned earlier. You can simply create a file named `.gitignore` and add this line inside:
+```text
+__pycache__/
+*.csv

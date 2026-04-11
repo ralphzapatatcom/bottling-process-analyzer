@@ -1,0 +1,7 @@
+{
+  "sample_size": 2800,
+  "target_volume": 500.0,
+  "std_deviation": 2.0,
+  "calibration_bias": 3.5,
+  "cost_per_ml": 0.05
+}

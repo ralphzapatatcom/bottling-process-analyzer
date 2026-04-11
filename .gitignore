@@ -1,0 +1,15 @@
+# Python bytecode (archivos temporales de ejecución)
+__pycache__/
+*.py[cod]
+*$py.class
+
+# Reportes generados (Datos de salida)
+sensor_adjustment_log.csv
+
+# Entornos virtuales
+venv/
+env/
+
+# Archivos de configuración del sistema
+.DS_Store
+Thumbs.db
